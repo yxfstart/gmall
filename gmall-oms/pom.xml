@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.atguigu</groupId>
-    <artifactId>gamll-oms</artifactId>
+    <artifactId>gmall-oms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gamll-oms</name>
-    <description>谷粒商城订单管理系统</description>
+    <name>gmall-oms</name>
+    <description>谷粒商城-订单管理系统</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -20,11 +20,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.atguigu</groupId>
-            <artifactId>gmall-core</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
